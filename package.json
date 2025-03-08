@@ -1,0 +1,19 @@
+{
+    "name": "game-center",
+    "private": true,
+    "version": "0.1.0",
+    "workspaces": [
+      "apps/*",     
+      "backend",    
+      "shared"      
+    ],
+    "devDependencies": {
+      "lerna": "^8.2.1"
+    },
+    "scripts": {
+      "bootstrap": "npm install",
+      "start:web": "npm run dev --prefix apps/game-center-web",
+      "start:backend": "node backend/server.js"
+    }
+  }
+  

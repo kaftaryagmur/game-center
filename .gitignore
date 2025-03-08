@@ -1,0 +1,45 @@
+# Node Modules (Hem Backend hem Frontend)
+node_modules/
+
+# Derleme ve Çıktı Dosyaları
+dist/
+build/
+
+# Çevresel Değişkenler
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# IDE ve Sistem Dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Log Dosyaları ve Çıktılar
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite ve Geçici Dosyalar
+.vite/
+.cache/
+*.cache
+*.tmp
+
+# Lerna ve Monorepo Yönetimi
+lerna-debug.log
+
+# Test ve Kapsam Raporları
+coverage/
+*.lcov
+
+# Service Workers ve Tarayıcı Dosyaları
+workbox-*.js
+sw.js
