@@ -1,5 +1,7 @@
-# game-center
-📦 C:\Users\kafta\Masaüstü\game-center
+# 📦 game-center Proje Dosya Yapısı
+
+```plaintext
+📦 game-center
  ┣ 📂 apps (Frontend ve Oyunlar)
  ┃ ┣ 📂 game-center-web (React Uygulaması)
  ┃ ┃ ┣ 📂 node_modules             # React bağımlılıkları
@@ -17,9 +19,9 @@
  ┃ ┃ ┃ ┗ 📄 index.css              # Global stiller
  ┃ ┃ ┣ {} package.json             # Frontend bağımlılıkları ve scriptler
  ┃ ┃ ┣ {} tsconfig.json            # TypeScript yapılandırması
- ┃ ┃ ┣ {} tsconfig.app.json        # Uygulama (React tarafı) için TypeScript yapılandırması
- ┃ ┃ ┣ {} tsconfig.node.json       # Node.js (backend) tarafı için TypeScript yapılandırması
- ┃ ┃ ┣ 📄 eslint.config.js         # TypeScript kod kalitesini ve standartlarını kontrol eden bir linting aracı
+ ┃ ┃ ┣ {} tsconfig.app.json        # Uygulama (React) için TypeScript ayarları
+ ┃ ┃ ┣ {} tsconfig.node.json       # Node.js (backend) için TypeScript ayarları
+ ┃ ┃ ┣ 📄 eslint.config.js         # Kod kalitesi ve standartları kontrolü
  ┃ ┃ ┗ 📄 vite.config.ts           # Vite proje yapılandırması
  ┃ ┗ 📂 games (İleride oyunlar için ayrı paket)
  ┣ 📂 backend (Node.js Middleware)
